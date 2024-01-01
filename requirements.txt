@@ -1,5 +1,7 @@
-numpy==1.26.2
-pandas==2.8.2
+numpy
+pandas
 streamlit
 scikit-learn
+seaborn
+pip==22.0.3
 matplotlib
