@@ -9,7 +9,7 @@ def app():
     image = mpimg.imread(image_path)
 
     st.text("Welcome to aplikasi prediksi penyakit Sleep Disorder!")
-    st.image(image, width=300)  
+    st.image(image, width=500)  
 
 # Jalankan aplikasi
 if __name__ == '__main__':
