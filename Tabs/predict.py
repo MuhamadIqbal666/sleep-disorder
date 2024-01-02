@@ -8,7 +8,6 @@ def app(df, x, y):
     # Jenis Kelamin
     Gender = st.selectbox('Pilih jenis kelamin (Male=0 Female=1)', ['0', '1'])
     Age = st.number_input('Masukkan Umur', 0, 100)
-    st.image('occupation.png', caption='Deskripsi pekerjaan', use_column_width=True)
     Occupation = st.selectbox('Pilih Nomor Pekerjaan', ['0','1','2','3','4','5','6','7','8','9','10'])
     Sleep_Duration = st.number_input('Durasi Tidur perhari', 5.9, 8.5)
     Quality_of_Sleep = st.selectbox('Pilih Nilai Kualitas Tidur', ['1','2','3','4','5','6','7''8'])
